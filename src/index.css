@@ -45,6 +45,10 @@ code {
   content: '›';
 }
 
+.navbar-toggler-icon {
+  background-color: white;
+}
+
 html {
   scroll-behavior: smooth;
 }
