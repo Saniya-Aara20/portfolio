@@ -2,7 +2,8 @@ import React from 'react';
 
 function CertificateCard({ title, items }) {
     return (
-        <div className="card mx-5 mb-5" style={{
+
+        <div className="card mb-5" style={{
             width: '30rem',
             background: 'linear-gradient(135deg, #0f2027, #203a43, #2c5364)',
             color: "#ffffff",
@@ -23,6 +24,7 @@ function CertificateCard({ title, items }) {
                 ))}
             </div>
         </div>
+
     );
 }
 

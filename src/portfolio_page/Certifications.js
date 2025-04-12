@@ -90,7 +90,7 @@ function Certifications() {
                     CERTIFICATIONS
                 </div>
 
-                <div className='d-flex flex-wrap justify-content-center gap-4 p-4'>
+                <div className='d-flex flex-wrap justify-content-center gap-4 p-4 row row-cols-1 row-cols-sm-2 row-cols-md-3'>
                     {certificationsData.map((cert, index) => (
                         <CertificateCard key={index} title={cert.title} items={cert.items} />
                     ))}

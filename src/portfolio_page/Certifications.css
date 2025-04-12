@@ -1,9 +1,10 @@
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.1);
+    box-shadow: 2 4px 15px rgba(0, 255, 255, 0.1);
     margin-bottom: 1rem;
     padding: 1rem;
     border-radius: 10px;
+
     background: #121212;
     /* or your desired background */
     color: white;
