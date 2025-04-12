@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Education.css';
 function Education() {
     return (<>
 
@@ -16,7 +16,7 @@ function Education() {
 
             }}>
                 <p className='fs-4 p-5 text-white text-center'>
-                    <img src='/sruLogo.jpeg' alt='srlogo' style={{ width: "10%" }}></img>
+                    <img src='/sruLogo.jpeg' alt='srlogo' style={{ width: '10%', height: 'auto' }} className='education-logo'></img>
                     <br /><br />
                     <strong>Bachelor of Technology</strong><br />
                     Computer Science and Engineering<br />

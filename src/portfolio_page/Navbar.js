@@ -8,7 +8,7 @@ function Navbar() {
                 backgroundColor: '#2f2f2f',
                 padding: '1rem 2rem',
                 fontSize: '1.2rem',
-                zIndex: 1030
+                zIndex: 1030,
             }}
         >
             <div className="container-fluid">
@@ -33,28 +33,27 @@ function Navbar() {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav gap-4">
                         <li className="nav-item">
-                            <a className="nav-link active text-white" href="#about">
+                            <a className="nav-link text-white" href="#about">
                                 About
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active text-white" href="#skills">
+                            <a className="nav-link text-white" href="#skills">
                                 Skills
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active text-white" href="#projects">
+                            <a className="nav-link text-white" href="#projects">
                                 Projects
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active text-white" href="#certifications">
+                            <a className="nav-link text-white" href="#certifications">
                                 Certifications
                             </a>
                         </li>
-
                         <li className="nav-item">
-                            <a className="nav-link active text-white" href="#contact">
+                            <a className="nav-link text-white" href="#contact">
                                 Contact
                             </a>
                         </li>

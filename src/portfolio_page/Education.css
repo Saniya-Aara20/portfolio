@@ -1,0 +1,14 @@
+/* In your CSS file */
+@media (max-width: 768px) {
+    .education-logo {
+        width: 5%;
+        /* You can adjust this value as needed */
+    }
+}
+
+@media (max-width: 576px) {
+    .education-logo {
+        width: 10%;
+        /* A bit larger on smaller screens */
+    }
+}

@@ -1,18 +1,32 @@
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 255, 255, 0.1);
-    /* subtle default glow */
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #121212;
+    /* or your desired background */
+    color: white;
 }
 
+/* Hover effect */
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 0 25px rgba(0, 255, 255, 0.5),
-        /* outer cyan glow */
         0 8px 25px rgba(0, 0, 0, 0.3);
-    /* depth shadow */
 }
 
+/* Link hover inside card */
 .card a:hover {
     color: #00ffff !important;
     text-decoration: underline;
+}
+
+/* Optional: Responsive tweaks */
+@media (max-width: 768px) {
+    .card {
+        padding: 1rem;
+        margin: 0.5rem auto;
+        font-size: 0.95rem;
+    }
 }
